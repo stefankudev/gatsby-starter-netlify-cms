@@ -1,0 +1,15 @@
+collections:
+  - label: "Exercise"
+    name: "Exercise"
+    folder: "_posts/exercises"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Exercise Image", name: "thumbnail", widget: "image" }
+      - { label: "Instructions", name: "instructions", widget: "markdown" }
+      - {
+          label: "Coaching Points",
+          name: "coaching_points",
+          widget: "markdown",
+        }
